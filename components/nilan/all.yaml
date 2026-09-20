@@ -523,7 +523,6 @@ text_sensor:
     id: nilan_version_info
     skip_updates: 60
     register_type: read
-    register_count: 3
     response_size: 6
     address: 1
     entity_category: diagnostic
