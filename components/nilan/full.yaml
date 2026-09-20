@@ -299,7 +299,7 @@ binary_sensor:
 #    modbus_controller_id: nilan_modbus_controller
 #    name: "Display upper line"
 #    id: nilan_display_upper_line
-#    force_new_range: true
+#    reuse_previous_range: false
 #    register_type: read
 #    register_count: 4
 #    response_size: 8
@@ -309,7 +309,7 @@ binary_sensor:
 #    modbus_controller_id: nilan_modbus_controller
 #    name: "Display lower line"
 #    id: nilan_display_lower_line
-#    force_new_range: true
+#    reuse_previous_range: false
 #    register_type: read
 #    register_count: 4
 #    response_size: 8

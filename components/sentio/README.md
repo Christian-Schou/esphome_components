@@ -498,7 +498,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 119
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;"
@@ -513,7 +513,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 219
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -528,7 +528,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 319
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -543,7 +543,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 419
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -558,7 +558,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 519
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -573,7 +573,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 619
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -588,7 +588,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 719
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -603,7 +603,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 819
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -618,7 +618,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 919
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -633,7 +633,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 1019
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
@@ -648,7 +648,7 @@ number:
     max_value: 30.0
     step: 0.5
     address: 1119
-    force_new_range: true
+    reuse_previous_range: false
     use_write_multiple: true 
     write_lambda: "payload = modbus_controller::float_to_payload(x*100, modbus_controller::SensorValueType::U_WORD); return x;"
     lambda: "return x*0.01;" 
